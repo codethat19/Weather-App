@@ -1,0 +1,68 @@
+<%- include("partials/header"); -%>
+
+<div class="row justify-content-center container-fluid">
+  <div class="col col-md-3"></div>
+
+  <div class="col-md-6 card shadow-lg p-3 mb-5" style="width: 20.5rem;">
+    <% if(city===""){ %>
+    <img src="http://openweathermap.org/img/wn/04d@2x.png" class="card-img-top" alt="weather image">
+    <%  } else if (city === "Incorrect City"){ %>
+    <img src="http://openweathermap.org/img/wn/04d@2x.png" class="card-img-top" alt="weather image">
+    <%  } else {%>
+    <img src="<%= imgURL %>" class="card-img-top" alt="weather image">
+    <% } %>
+
+    <div class="card-body">
+      <% if(city===""){ %>
+      <h5 class="card-title">Enter City</h5>
+      <p class="card-text">Please enter city in the textbox below to view its current weather and below details:</p>
+      <%  } else if (city === "Incorrect City"){ %>
+      <h5 class="card-title">Incorrect city name entered</h5>
+      <p class="card-text">Please enter <b>correct</b> city in the textbox below to view its current weather and below details:</p>
+      <%  } else {%>
+      <h5 class="card-title"><%= city %></h5>
+      <p class="card-text">The current weather condition in <%= city %> is <%= description %></p>
+      <% } %>
+    </div>
+
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Temperature: <%= temper1 %>
+        <% if(city===""){ %>
+      </li>
+      <%  } else if (city === "Incorrect City") { %>
+      </li>
+      <%  } else {%>
+      °C</li>
+      <% } %>
+      <li class="list-group-item">Pressure: <%= press %>
+        <% if(city===""){ %>
+      </li>
+      <%  } else if (city === "Incorrect City") { %>
+      </li>
+      <%  } else {%>
+      hPa</li>
+      <% } %>
+      <li class="list-group-item">Humidity: <%= humid %>
+        <% if(city===""){ %>
+      </li>
+      <%  } else if (city === "Incorrect City") { %>
+      </li>
+      <%  } else {%>
+      %</li>
+      <% } %>
+    </ul>
+
+    <div class="card-body">
+      <form class="row row-cols-lg-auto g-3 align-items-center" action="/" method="post">
+        <div class="input-group">
+          <input id="cityInput" type="text" name="cityName" class="form-control" placeholder="Enter City">
+          <button type="submit" name="button" class="btn btn-primary btn-lg">Go</button>
+        </div>
+      </form>
+    </div>
+
+  </div>
+  <div class="col col-md-3"></div>
+</div>
+
+<%- include("partials/footer"); -%>

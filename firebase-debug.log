@@ -1,0 +1,106 @@
+[debug] [2023-02-21T11:41:54.354Z] ----------------------------------------------------------------------
+[debug] [2023-02-21T11:41:54.355Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aayus\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-02-21T11:41:54.356Z] CLI Version:   11.23.1
+[debug] [2023-02-21T11:41:54.356Z] Platform:      win32
+[debug] [2023-02-21T11:41:54.356Z] Node Version:  v16.16.0
+[debug] [2023-02-21T11:41:54.357Z] Time:          Tue Feb 21 2023 17:11:54 GMT+0530 (India Standard Time)
+[debug] [2023-02-21T11:41:54.357Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-21T11:41:54.364Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-21T11:41:54.364Z] > authorizing via signed-in user (aayushrastogi1997@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\aayus\Documents\WebPrac\Prac1\WeatherProject
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-02-21T11:42:04.537Z] > refreshing access token with scopes: []
+[debug] [2023-02-21T11:42:04.538Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-02-21T11:42:04.538Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-02-21T11:42:04.803Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-02-21T11:42:04.803Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-02-21T11:42:04.816Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-02-21T11:42:05.582Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-02-21T11:42:05.582Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2023-02-21T11:42:24.921Z] ----------------------------------------------------------------------
+[debug] [2023-02-21T11:42:24.923Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aayus\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-02-21T11:42:24.923Z] CLI Version:   11.23.1
+[debug] [2023-02-21T11:42:24.923Z] Platform:      win32
+[debug] [2023-02-21T11:42:24.923Z] Node Version:  v16.16.0
+[debug] [2023-02-21T11:42:24.924Z] Time:          Tue Feb 21 2023 17:12:24 GMT+0530 (India Standard Time)
+[debug] [2023-02-21T11:42:24.925Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-21T11:42:24.931Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-21T11:42:24.931Z] > authorizing via signed-in user (aayushrastogi1997@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\aayus\Documents\WebPrac\Prac1\WeatherProject
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-02-21T11:42:31.162Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-02-21T11:42:31.930Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-02-21T11:42:31.930Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2023-02-21T11:42:37.751Z] ----------------------------------------------------------------------
+[debug] [2023-02-21T11:42:37.753Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aayus\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-02-21T11:42:37.753Z] CLI Version:   11.23.1
+[debug] [2023-02-21T11:42:37.753Z] Platform:      win32
+[debug] [2023-02-21T11:42:37.753Z] Node Version:  v16.16.0
+[debug] [2023-02-21T11:42:37.754Z] Time:          Tue Feb 21 2023 17:12:37 GMT+0530 (India Standard Time)
+[debug] [2023-02-21T11:42:37.754Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-21T11:42:37.761Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-21T11:42:37.761Z] > authorizing via signed-in user (aayushrastogi1997@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\aayus\Documents\WebPrac\Prac1\WeatherProject
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2023-02-21T11:43:06.697Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2023-02-21T11:43:06.697Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"WeatherProject","name":"WeatherProject"}
+[debug] [2023-02-21T11:43:07.135Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2023-02-21T11:43:07.135Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"field [project_id] has issue [project_id contains invalid characters]","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id contains invalid characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2023-02-21T11:43:07.357Z] FirebaseError: HTTP Error: 400, field [project_id] has issue [project_id contains invalid characters]
+    at responseToError (C:\Users\aayus\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\aayus\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
